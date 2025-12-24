@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio - Imran Fitri</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="roleChange.js" defer></script> <!-- script.js is for my website to be responsive-->
+        <!--IMPORTANT: defer waits for all html elemnts to load, so js can run properly-->
+        <script src="animatedBackground.js" defer></script>
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="navbar">
+            <div class="profile-name">
+                <img src="assets/car.jpg" alt="" class="profile-image">
+                Imran
+            </div>
+            <div class="navbar_button">
+                <a href="">Home</a>
+                <a href="#about-me">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="">Experiences</a>
+            </div>
+        </nav>
+
+        <!--Home-->
+        <section id="about-me" class="container">
+        <div>
+            <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="about-me-image"/>
+        </div>
+        <div class="about-me-text">
+            <h1>Hi! I'm Imran.</h1>
+            <p id="roleicon"><span>>_</span></p>
+            <h2 id="role"><span>Student</span>|</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem inventore labore optio non nostrum sapiente voluptas, numquam porro magni debitis velit similique cupiditate nulla enim quas, saepe earum voluptatem ab.</p>
+        </div>
+        </section>
+        <!--projects-->
+        <section id="projects" class="container">
+            <div class="animatedbg"></div>
+            <div class="projects-content">
+                <h1>Projects</h1>
+                <div class="project-list">
+                    <div id="list1">
+                        <img src="assets/gaming hub.png" alt="">
+                        <h1>Virtual Gaming Hub</h1>
+                        <a href=""><button class="view-projects">View</button></a>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, tenetur. Debitis velit veniam corrupti! Excepturi corporis, incidunt ad unde fuga quaerat. Sequi veritatis quisquam facilis non consectetur numquam minus hic.</p>
+                    </div>
+                    <div id="list2">
+                        <img src="assets/portfolio.png" alt="">
+                        <h1>My Portfolio Website</h1>
+                        <a href=""><button class="view-projects">View</button></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque non harum, sint placeat voluptates similique. Odit cumque rerum officia animi. Eum laborum quia facere voluptatibus veniam in ea corrupti facilis.</p>
+                    </div>
+                    <div id="list3">
+                        <img src="assets/car.jpg" alt="">
+                        <h1>Mobile Business Card</h1>
+                        <a href=""><button class="view-projects">View</button></a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium temporibus eos tenetur odio, est similique, corrupti facilis mollitia adipisci blanditiis architecto libero reprehenderit doloremque repellendus quasi illum asperiores amet et!</p>
+                    </div>
+                </div>
+        </section>
+    </body>
+</html>
