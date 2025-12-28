@@ -6,7 +6,7 @@
         <script src="roleChange.js" defer></script> <!-- script.js is for my website to be responsive-->
         <!--IMPORTANT: defer waits for all html elemnts to load, so js can run properly-->
         <script src="animatedBackground.js" defer></script>
-        <script src="animations.js" defer></script>
+        <script src="slider.js" defer></script>
     </head>
     <body>
         <!--navbar-->
@@ -19,7 +19,7 @@
                 <a href="">Home</a>
                 <a href="#about-me">About Me</a>
                 <a href="#projects">Projects</a>
-                <a href="">Experiences</a>
+                <a href="#experiences">Experiences</a>
             </div>
         </nav>
 
@@ -63,5 +63,18 @@
             </div>
         </section>
         <!-- experiences -->
+        <section id="experiences">
+            <h1>Experiences</h1>
+            <div class="experiences-content">
+            <button id="previous" class="arrow"><</button>
+                <div class="experiences-gallery">
+                    <img src="assets/car.jpg" alt="">
+                    <div class="experiences-text">
+                        <h1 class="title">Future coder In OMC</h1>
+                        <p class="description">desc 1</p>
+                    </div>
+                </div>
+                <button id="next" class="arrow">></button>
+            </div>
     </body>
 </html>
