@@ -246,7 +246,7 @@ body{
 }
 
 .experiences-gallery{
-    height: 50vh;
+    height: 50%;
     border: 2px solid aquamarine;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px aquamarine;
